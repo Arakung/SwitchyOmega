@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: SwitchyOmega 2.3.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-13 11:15+0000\n"
-"PO-Revision-Date: 2018-05-19 13:35+0000\n"
+"PO-Revision-Date: 2018-08-11 04:35+0000\n"
 "Last-Translator: zhtw <zhtw2013@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "switchyomega/main/zh_Hant/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 3.0-dev\n"
+"X-Generator: Weblate 3.2-dev\n"
 
 msgid "appNameShort"
 msgstr "SwitchyOmega"
@@ -268,7 +268,7 @@ msgid "options_showConditionTypesAdvanced"
 msgstr "顯示進階切換條件"
 
 msgid "options_showConditionTypesAdvancedHelp"
-msgstr "啟用後，可以使用一些新種類的切換條件，功能強大但難以掌握。對於大多數情況來說，只用基本條件類型就可以滿足需求，因此不推薦啟用此功能。"
+msgstr "解鎖一些新種類的、功能強大的但難以掌握的切換條件。對於大多數情況來說，基本條件類型應該就足夠，因此不推薦該選項。"
 
 msgid "options_quickSwitch"
 msgstr "快速切換"
@@ -489,17 +489,21 @@ msgstr "連接埠"
 msgid "options_proxy_auth"
 msgstr "代理認證"
 
+msgid "options_proxy_authNotSupported"
+msgstr "您的瀏覽器不支持 $PROTOCOLDISP$ 代理認證！如有問題請聯繫您的瀏覽器支持，"
+"請勿反饋此問題給 SwitchyOmega."
+
 msgid "options_proxy_authAllWarningPac"
-msgstr "警告: 用戶名密碼將會提供給PAC指令碼返回的任何伺服器，有時目標伺服器會出乎您的預料。"
+msgstr "警告: 使用者名稱和密碼將會提供給 PAC 指令碼返回的任何伺服器，有時目標伺服器會出乎您的預料。"
 
 msgid "options_proxy_authAllWarningPacUrl"
-msgstr "在提供用戶名和密碼時，請先確保您可以信任以上網址提供的PAC指令碼。"
+msgstr "在提供使用者名稱和密碼時，請先確保您可以信任以上網址提供的 PAC 指令碼。"
 
 msgid "options_proxy_authAllWarningPacScript"
-msgstr "在提供用戶名和密碼時，請先確保您可以信任以下輸入的PAC指令碼。"
+msgstr "在提供使用者名稱和密碼時，請先確保您可以信任以下輸入的 PAC 指令碼。"
 
 msgid "options_proxy_authReferencedWarning"
-msgstr "此外，在其他情景模式（如自動切換）中使用此情景時，可能會導致用戶名和密碼被髮送至其他情景模式中設定的伺服器。"
+msgstr "此外，在其他情景模式（如自動切換）中使用此情景時，可能會導致使用者名稱和密碼被傳送至其他情景模式中設定的伺服器。"
 
 msgid "options_scheme_default"
 msgstr "(預設)"
@@ -773,10 +777,16 @@ msgid "options_modalHeader_proxyAuth"
 msgstr "代理認證"
 
 msgid "options_proxyAuthUsername"
-msgstr "用戶名"
+msgstr "使用者名稱"
 
 msgid "options_proxyAuthPassword"
 msgstr "密碼"
+
+msgid "options_proxyAuthShowPassword"
+msgstr "顯示密碼"
+
+msgid "options_proxyAuthHidePassword"
+msgstr "隱藏密碼"
 
 msgid "options_proxyAuthNone"
 msgstr "(無密碼)"

@@ -3,45 +3,46 @@ msgstr ""
 "Project-Id-Version: SwitchyOmega 2.3.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-13 10:29+0000\n"
-"PO-Revision-Date: 2015-02-17 07:02+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: en_GB\n"
+"PO-Revision-Date: 2019-05-10 11:34+0000\n"
+"Last-Translator: Riccardo Feletto <riccardo.feletto@gmail.com>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/switchyomega/"
+"main/it/>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.2-dev\n"
+"X-Generator: Weblate 3.7-dev\n"
 
 msgid "appNameShort"
-msgstr ""
+msgstr "SwitchyOmega"
 
 msgid "manifest_app_name"
-msgstr ""
+msgstr "Proxy SwitchyOmega"
 
 msgid "manifest_app_description"
-msgstr ""
+msgstr "Organizza e scegli fra proxy multipli in maniera facile e veloce."
 
 msgid "manifest_icon_default_title"
-msgstr ""
+msgstr "Caricamento…"
 
 msgid "upgrade_profile_auto"
-msgstr ""
+msgstr "Auto Switch"
 
 msgid "profile_direct"
-msgstr ""
+msgstr "[Diretto]"
 
 msgid "profile_system"
-msgstr ""
+msgstr "[Proxy di Sistema]"
 
 msgid "condition_HostWildcardCondition"
-msgstr ""
+msgstr "Host wildcard"
 
 msgid "condition_help_HostWildcardCondition"
 msgstr ""
 
 msgid "condition_HostRegexCondition"
-msgstr ""
+msgstr "Host regex"
 
 msgid "condition_help_HostRegexCondition"
 msgstr ""
@@ -59,40 +60,40 @@ msgid "condition_help_IpCondition"
 msgstr ""
 
 msgid "condition_UrlWildcardCondition"
-msgstr ""
+msgstr "URL wildcard"
 
 msgid "condition_help_UrlWildcardCondition"
 msgstr ""
 
 msgid "condition_UrlRegexCondition"
-msgstr ""
+msgstr "URL regex"
 
 msgid "condition_help_UrlRegexCondition"
 msgstr ""
 
 msgid "condition_KeywordCondition"
-msgstr ""
+msgstr "Parole chiave"
 
 msgid "condition_help_KeywordCondition"
 msgstr ""
 
 msgid "condition_FalseCondition"
-msgstr ""
+msgstr "(Disabilitato)"
 
 msgid "condition_details_FalseCondition"
-msgstr ""
+msgstr "(Condizioni ignorate quando riscontrate)"
 
 msgid "condition_help_FalseCondition"
 msgstr ""
 
 msgid "condition_TimeCondition"
-msgstr ""
+msgstr "Tempo attuale"
 
 msgid "condition_help_TimeCondition"
 msgstr ""
 
 msgid "condition_WeekdayCondition"
-msgstr ""
+msgstr "Giorno della settimana"
 
 msgid "condition_help_WeekdayCondition"
 msgstr ""
@@ -102,96 +103,97 @@ msgstr ""
 
 msgid "condition_alert_fullUrlLimitationLink"
 msgstr ""
+"https://github.com/FelisCatus/SwitchyOmega/wiki/Chromium-Full-URL-Limitation"
 
 msgid "condition_group_default"
 msgstr ""
 
 msgid "condition_group_host"
-msgstr ""
+msgstr "Host"
 
 msgid "condition_group_url"
-msgstr ""
+msgstr "Url"
 
 msgid "condition_group_special"
-msgstr ""
+msgstr "Speciale"
 
 msgid "ruleListFormat_Switchy"
-msgstr ""
+msgstr "Switchy"
 
 msgid "ruleListFormat_AutoProxy"
-msgstr ""
+msgstr "AutoProxy"
 
 msgid "ruleList_usageUrl"
-msgstr ""
+msgstr "https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage"
 
 msgid "ruleList_error_resultNotEnabled"
 msgstr ""
 
 msgid "ruleList_error_unknownProfile"
-msgstr ""
+msgstr "Profilo sconosciuto: $PROFILE$"
 
 msgid "ruleList_error_missingResultProfile"
 msgstr ""
 
 msgid "ruleList_error_invalidRule"
-msgstr ""
+msgstr "Regola non valida alla linea $LNO$: $SOURCE$"
 
 msgid "ruleList_error_noDefaultRule"
 msgstr ""
 
 msgid "dialog_close"
-msgstr ""
+msgstr "Chiusa"
 
 msgid "dialog_save"
-msgstr ""
+msgstr "Salva le modifiche"
 
 msgid "dialog_ok"
-msgstr ""
+msgstr "OK"
 
 msgid "dialog_cancel"
-msgstr ""
+msgstr "Cancella"
 
 msgid "inputClear_clear"
-msgstr ""
+msgstr "Pulisci"
 
 msgid "inputClear_restore"
-msgstr ""
+msgstr "Ripristina"
 
 msgid "options_title"
-msgstr ""
+msgstr "Opzioni di SwitchyOmega"
 
 msgid "options_experimental_badge"
-msgstr ""
+msgstr "α"
 
 msgid "options_navHeader_setting"
-msgstr ""
+msgstr "Impostazioni"
 
 msgid "options_navHeader_profiles"
-msgstr ""
+msgstr "Profili"
 
 msgid "options_navHeader_actions"
-msgstr ""
+msgstr "Azioni"
 
 msgid "options_tab_ui"
-msgstr ""
+msgstr "Interfaccia"
 
 msgid "options_tab_general"
-msgstr ""
+msgstr "Generale"
 
 msgid "options_tab_importExport"
-msgstr ""
+msgstr "Importa/Esporta"
 
 msgid "options_newProfile"
-msgstr ""
+msgstr "Nuovo profilo…"
 
 msgid "options_apply"
-msgstr ""
+msgstr "Applica i cambiamenti"
 
 msgid "options_discard"
-msgstr ""
+msgstr "Scarta i cambiamenti"
 
 msgid "options_reset"
-msgstr ""
+msgstr "Ripristina le opzioni"
 
 msgid "options_group_miscOptions"
 msgstr ""
@@ -443,6 +445,9 @@ msgid "options_proxy_port"
 msgstr ""
 
 msgid "options_proxy_auth"
+msgstr ""
+
+msgid "options_proxy_authNotSupported"
 msgstr ""
 
 msgid "options_proxy_authAllWarningPac"
@@ -725,6 +730,12 @@ msgid "options_proxyAuthUsername"
 msgstr ""
 
 msgid "options_proxyAuthPassword"
+msgstr ""
+
+msgid "options_proxyAuthShowPassword"
+msgstr ""
+
+msgid "options_proxyAuthHidePassword"
 msgstr ""
 
 msgid "options_proxyAuthNone"
